@@ -8,8 +8,8 @@ export default new Event(Events.ClientReady, async (client) => {
   const { user, guilds } = client
 
   const activities: ActivitiesOptions[][] = [
-    [{ name: 'your commands', type: ActivityType.Listening }],
-    [{ name: '@Calypso', type: ActivityType.Listening }],
+    [{ name: 'you', type: ActivityType.Watching }],
+    [{ name: '@dea', type: ActivityType.Listening }],
   ]
 
   // Update presence
